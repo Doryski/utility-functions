@@ -1,0 +1,23 @@
+{
+  "name": "utility-functions",
+  "version": "1.0.0",
+  "description": "The repository of helpful utility functions.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "Doryski",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^16.2.13",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.10",
+    "jsdom": "^18.0.0",
+    "node-fetch": "^2.6.1",
+    "xlsx": "^0.17.3"
+  }
+}
